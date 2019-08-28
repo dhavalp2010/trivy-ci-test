@@ -1,4 +1,4 @@
-FROM composer:1.7.2
+FROM alpine:latest
 
 ADD composer_laravel.lock /php-app/composer.lock
 ADD Gemfile_rails.lock /ruby-app/Gemfile.lock
