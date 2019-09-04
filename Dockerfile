@@ -1,4 +1,4 @@
-FROM composer:1.7.2
+FROM alpine:latest
 
 ADD Gemfile_rails.lock /ruby-app/Gemfile.lock
 ADD package-lock_react.json /node-app/package-lock.json
